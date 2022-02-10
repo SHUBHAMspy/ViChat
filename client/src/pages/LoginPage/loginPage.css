@@ -1,0 +1,100 @@
+.login-page_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to left top, #be0181, #b30086, #a7008c, #990091, #890096, #7631b0, #584ac7, #185ed9, #0086f3, #00aaff, #00cbff, #00eaff);} 
+
+.login-page_login_box {
+  width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: white;
+}
+
+.login-page_logo_container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-page_logo_image {
+  width: 200px;
+}
+
+.login-page_title_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page_input_container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-page_input {
+  width: 210px;
+  border-radius: 50px;
+  height: 40px;
+  outline:none;
+  border: 1px solid #1e71ff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 10px;
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+
+
+.login-page_button_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-page_button {
+  border-radius: 50px;
+  outline: none;
+  background-color: #1e71ff;
+  font-size: 16px;
+  padding: 10px 10px;
+  width: 170px;
+  transition: 0.3s;
+  box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+  color: #e6e5e8;
+}
+
+.login-page_button:hover {
+  background-color: #00EAFF;
+  opacity: 0.6;
+  color: black;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e6e5e8;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #e6e5e8;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #e6e5e8;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #e6e5e8;
+  text-align: center;
+}
